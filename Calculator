@@ -1,0 +1,15 @@
+#ISAAC KIPNGENO LELGO SCT211-0074/2022
+
+op=input("Enter the operator:")
+a=float(input("first number:"))
+b=float(input("second number:"))
+if op == "+":
+    print(a+b)
+elif op == "-":
+    print(a-b)
+elif op == "*":
+    print(a*b)    
+elif op == "/":
+    print(a/b)
+else:
+    print("Invalid")
