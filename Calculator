@@ -1,15 +1,21 @@
-#ISAAC KIPNGENO LELGO SCT211-0074/2022
-
-op=input("Enter the operator:")
+def add(a,b):
+    return a+b
+def subtract(a,b):
+    return a-b
+def divide(a,b):
+    return a/b
+def multiply(a,b):
+    return a*b
 a=float(input("first number:"))
+op=input("Enter the operator:")
 b=float(input("second number:"))
 if op == "+":
-    print(a+b)
+    print(add(a,b))
 elif op == "-":
-    print(a-b)
+    print(subtract(a,b))
 elif op == "*":
-    print(a*b)    
+    print(multiply(a,b))    
 elif op == "/":
-    print(a/b)
+    print(divide(a,b))
 else:
     print("Invalid")
