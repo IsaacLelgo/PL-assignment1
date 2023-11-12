@@ -16,6 +16,11 @@ elif op == "-":
 elif op == "*":
     print(multiply(a,b))    
 elif op == "/":
-    print(divide(a,b))
+    try:
+        x=divide(a,b)
+    except Exception as e:
+        print(e)
+    else:
+        print(x)
 else:
     print("Invalid")
